@@ -1,0 +1,44 @@
+.input-field{
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.input-textarea{
+    width: 350px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.input-button{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 350px;
+    height: 40px;
+    background:black;
+    color: #fff;
+}
+.input-button:hover{
+    background: rgb(65, 62, 62);
+    color: #fff;
+}
+
+@media only screen and (max-width:550px) {
+
+    .input-field{
+        width: 300px;;
+    }
+    .input-textarea{
+        width: 300px;
+        height: 100px;
+    }
+    .input-button{
+
+        width: 300px;
+    }
+}
+

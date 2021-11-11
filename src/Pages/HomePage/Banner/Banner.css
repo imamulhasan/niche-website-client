@@ -1,0 +1,14 @@
+.carousel-image{
+    height: 60vh;
+}
+
+.banner-text{
+    text-align: justify;
+}
+
+
+@media  (max-width:800px) {
+    .carousel-image{
+        height: 35vh;
+    }
+}

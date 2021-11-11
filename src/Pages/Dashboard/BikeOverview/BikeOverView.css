@@ -1,0 +1,18 @@
+ /* Number 1 bike styles  */
+ .number-1-bike-title{
+    font-size: 48px;
+    margin-bottom: 104px;
+}
+.number-1-bike-title span{
+    color: #E76F51;
+}
+.top-bike-button{
+   background-color: #E76F51;
+}
+/* responsive number one bike  */
+@media (max-width:688px) {
+   .number-1-bike-title{
+       font-size: 36px;
+       margin-bottom: 60px;
+   }
+}
