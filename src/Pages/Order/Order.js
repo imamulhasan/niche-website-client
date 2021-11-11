@@ -49,9 +49,9 @@ const Order = () => {
     return (
         <div>
             <Nevigetion/>
-            <div className="text-center container"  style={{height:"80vh"}}>
+            <div className="text-center container"  style={{minHeight:"70vh"}}>
 
-            <h2 style={{padding:'50px 0', minHeight:'70vh'}}>BUY BIKE</h2>
+            <h2 style={{padding:'50px 0'}}>BUY BIKE</h2>
 
         <div className="row">
             <div className="col-md-6">

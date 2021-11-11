@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const MyOrder = ({myOrder, myOrders ,setMyOrders}) => {
-    const {productName, email, price, status,_id}= myOrder
+    const {productName, email, price, status,_id , date , phone}= myOrder
     
             const handleOrderDelete = id =>{
                 const process = window.confirm('')
@@ -28,7 +28,9 @@ const MyOrder = ({myOrder, myOrders ,setMyOrders}) => {
               {email}
             </Card.Text>
             <Card.Text>
-               ${price}
+               ${price} <br/>
+               {date} <br/>
+               {phone}
             </Card.Text>
             {status==="pending"? <div className="d-flex  justify-content-between">
             <button onClick={()=>handleOrderDelete(_id)}  className=" border-0 rounded text-light bg-danger p-2"><i className="fas fa-trash-alt"></i> Delete</button>
