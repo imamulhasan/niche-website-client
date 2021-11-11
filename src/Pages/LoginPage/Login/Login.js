@@ -19,7 +19,7 @@ const Login = () => {
     return (
         <div>
             <Nevigetion/>
-            <Container style={{height:'68vh'}}>
+            <Container style={{minHeight:'68vh'}}>
                 <div className="row mt-5">
                 <div className="col-md-6 d-block m-auto">
                 

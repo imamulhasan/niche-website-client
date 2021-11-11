@@ -27,7 +27,7 @@ const Nevigetion = () => {
                         {user?.email&&<Link className="text-decoration-none text-center nav-link ms-3 fw-bold " to="/dashboard">Dashboard</Link>}
                         
                         {user?.email?<button onClick={logOut} className=" border-0 bg-light text-secondary ms-3 fw-bold">Sing Out</button>:
-                        <Link to="/login" className="text-decoration-none nav-link ms-3 fw-bold">Login</Link>}
+                        <Link to="/login" className="text-decoration-none text-center nav-link ms-3 fw-bold">Login</Link>}
                         
                     </Nav>
                     <Form className="d-flex">
